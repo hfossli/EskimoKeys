@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35F1BF41E2908AC00C0C984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F1BF31E2908AC00C0C984 /* AppDelegate.swift */; };
+		A35F1BF61E2908AC00C0C984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F1BF51E2908AC00C0C984 /* ViewController.swift */; };
+		A35F1BF91E2908AC00C0C984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35F1BF71E2908AC00C0C984 /* Main.storyboard */; };
+		A35F1BFB1E2908AC00C0C984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35F1BFA1E2908AC00C0C984 /* Assets.xcassets */; };
+		A35F1BFE1E2908AC00C0C984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35F1BFC1E2908AC00C0C984 /* LaunchScreen.storyboard */; };
+		A35F1C091E2908AC00C0C984 /* EskimoKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35F1C081E2908AC00C0C984 /* EskimoKeysTests.swift */; };
+		A35F1C181E2908B700C0C984 /* QHex.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F1C151E2908B700C0C984 /* QHex.m */; };
+		A35F1C191E2908B700C0C984 /* CommonCryptoAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F1C171E2908B700C0C984 /* CommonCryptoAccess.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A35F1C051E2908AC00C0C984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35F1BE81E2908AC00C0C984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35F1BEF1E2908AC00C0C984;
+			remoteInfo = EskimoKeys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35F1BF01E2908AC00C0C984 /* EskimoKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EskimoKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35F1BF31E2908AC00C0C984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A35F1BF51E2908AC00C0C984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A35F1BF81E2908AC00C0C984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A35F1BFA1E2908AC00C0C984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A35F1BFD1E2908AC00C0C984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A35F1BFF1E2908AC00C0C984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35F1C041E2908AC00C0C984 /* EskimoKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EskimoKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35F1C081E2908AC00C0C984 /* EskimoKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EskimoKeysTests.swift; sourceTree = "<group>"; };
+		A35F1C0A1E2908AC00C0C984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35F1C131E2908B600C0C984 /* EskimoKeys-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EskimoKeys-Bridging-Header.h"; sourceTree = "<group>"; };
+		A35F1C141E2908B700C0C984 /* QHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHex.h; sourceTree = "<group>"; };
+		A35F1C151E2908B700C0C984 /* QHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHex.m; sourceTree = "<group>"; };
+		A35F1C161E2908B700C0C984 /* CommonCryptoAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoAccess.h; sourceTree = "<group>"; };
+		A35F1C171E2908B700C0C984 /* CommonCryptoAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoAccess.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A35F1BED1E2908AC00C0C984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35F1C011E2908AC00C0C984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35F1BE71E2908AC00C0C984 = {
+			isa = PBXGroup;
+			children = (
+				A35F1BF21E2908AC00C0C984 /* EskimoKeys */,
+				A35F1C071E2908AC00C0C984 /* EskimoKeysTests */,
+				A35F1BF11E2908AC00C0C984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A35F1BF11E2908AC00C0C984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A35F1BF01E2908AC00C0C984 /* EskimoKeys.app */,
+				A35F1C041E2908AC00C0C984 /* EskimoKeysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35F1BF21E2908AC00C0C984 /* EskimoKeys */ = {
+			isa = PBXGroup;
+			children = (
+				A35F1BF31E2908AC00C0C984 /* AppDelegate.swift */,
+				A35F1BF51E2908AC00C0C984 /* ViewController.swift */,
+				A35F1C141E2908B700C0C984 /* QHex.h */,
+				A35F1C151E2908B700C0C984 /* QHex.m */,
+				A35F1C161E2908B700C0C984 /* CommonCryptoAccess.h */,
+				A35F1C171E2908B700C0C984 /* CommonCryptoAccess.m */,
+				A35F1BF71E2908AC00C0C984 /* Main.storyboard */,
+				A35F1BFA1E2908AC00C0C984 /* Assets.xcassets */,
+				A35F1BFC1E2908AC00C0C984 /* LaunchScreen.storyboard */,
+				A35F1BFF1E2908AC00C0C984 /* Info.plist */,
+				A35F1C131E2908B600C0C984 /* EskimoKeys-Bridging-Header.h */,
+			);
+			path = EskimoKeys;
+			sourceTree = "<group>";
+		};
+		A35F1C071E2908AC00C0C984 /* EskimoKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				A35F1C081E2908AC00C0C984 /* EskimoKeysTests.swift */,
+				A35F1C0A1E2908AC00C0C984 /* Info.plist */,
+			);
+			path = EskimoKeysTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A35F1BEF1E2908AC00C0C984 /* EskimoKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35F1C0D1E2908AC00C0C984 /* Build configuration list for PBXNativeTarget "EskimoKeys" */;
+			buildPhases = (
+				A35F1BEC1E2908AC00C0C984 /* Sources */,
+				A35F1BED1E2908AC00C0C984 /* Frameworks */,
+				A35F1BEE1E2908AC00C0C984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EskimoKeys;
+			productName = EskimoKeys;
+			productReference = A35F1BF01E2908AC00C0C984 /* EskimoKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A35F1C031E2908AC00C0C984 /* EskimoKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35F1C101E2908AC00C0C984 /* Build configuration list for PBXNativeTarget "EskimoKeysTests" */;
+			buildPhases = (
+				A35F1C001E2908AC00C0C984 /* Sources */,
+				A35F1C011E2908AC00C0C984 /* Frameworks */,
+				A35F1C021E2908AC00C0C984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35F1C061E2908AC00C0C984 /* PBXTargetDependency */,
+			);
+			name = EskimoKeysTests;
+			productName = EskimoKeysTests;
+			productReference = A35F1C041E2908AC00C0C984 /* EskimoKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A35F1BE81E2908AC00C0C984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Agens;
+				TargetAttributes = {
+					A35F1BEF1E2908AC00C0C984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X67P89Q627;
+					};
+					A35F1C031E2908AC00C0C984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A35F1BEF1E2908AC00C0C984;
+					};
+				};
+			};
+			buildConfigurationList = A35F1BEB1E2908AC00C0C984 /* Build configuration list for PBXProject "EskimoKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A35F1BE71E2908AC00C0C984;
+			productRefGroup = A35F1BF11E2908AC00C0C984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A35F1BEF1E2908AC00C0C984 /* EskimoKeys */,
+				A35F1C031E2908AC00C0C984 /* EskimoKeysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A35F1BEE1E2908AC00C0C984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35F1BFE1E2908AC00C0C984 /* LaunchScreen.storyboard in Resources */,
+				A35F1BFB1E2908AC00C0C984 /* Assets.xcassets in Resources */,
+				A35F1BF91E2908AC00C0C984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35F1C021E2908AC00C0C984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35F1BEC1E2908AC00C0C984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35F1BF61E2908AC00C0C984 /* ViewController.swift in Sources */,
+				A35F1BF41E2908AC00C0C984 /* AppDelegate.swift in Sources */,
+				A35F1C181E2908B700C0C984 /* QHex.m in Sources */,
+				A35F1C191E2908B700C0C984 /* CommonCryptoAccess.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35F1C001E2908AC00C0C984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35F1C091E2908AC00C0C984 /* EskimoKeysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A35F1C061E2908AC00C0C984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35F1BEF1E2908AC00C0C984 /* EskimoKeys */;
+			targetProxy = A35F1C051E2908AC00C0C984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A35F1BF71E2908AC00C0C984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35F1BF81E2908AC00C0C984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A35F1BFC1E2908AC00C0C984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35F1BFD1E2908AC00C0C984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A35F1C0B1E2908AC00C0C984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A35F1C0C1E2908AC00C0C984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A35F1C0E1E2908AC00C0C984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EskimoKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.EskimoKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EskimoKeys/EskimoKeys-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A35F1C0F1E2908AC00C0C984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EskimoKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.EskimoKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EskimoKeys/EskimoKeys-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A35F1C111E2908AC00C0C984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EskimoKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.EskimoKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EskimoKeys.app/EskimoKeys";
+			};
+			name = Debug;
+		};
+		A35F1C121E2908AC00C0C984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EskimoKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.agens.EskimoKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EskimoKeys.app/EskimoKeys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A35F1BEB1E2908AC00C0C984 /* Build configuration list for PBXProject "EskimoKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35F1C0B1E2908AC00C0C984 /* Debug */,
+				A35F1C0C1E2908AC00C0C984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35F1C0D1E2908AC00C0C984 /* Build configuration list for PBXNativeTarget "EskimoKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35F1C0E1E2908AC00C0C984 /* Debug */,
+				A35F1C0F1E2908AC00C0C984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A35F1C101E2908AC00C0C984 /* Build configuration list for PBXNativeTarget "EskimoKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35F1C111E2908AC00C0C984 /* Debug */,
+				A35F1C121E2908AC00C0C984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A35F1BE81E2908AC00C0C984 /* Project object */;
+}
