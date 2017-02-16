@@ -6,4 +6,4 @@ https://forums.developer.apple.com/thread/8030
 
 ## Useful tips
 
-I have refactored this code into a micro framework. See [agens-no/EllipticCurveKeyPair](https://github.com/agens-no/EllipticCurveKeyPair) for all the details ✨⚡️🍃
+I have refactored this code into a micro framework and support for Swift 3. See [agens-no/EllipticCurveKeyPair](https://github.com/agens-no/EllipticCurveKeyPair) for all the details ✨⚡️🍃
